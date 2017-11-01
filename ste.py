@@ -28,8 +28,6 @@ def setup_logging(name=__name__, level=logging.INFO, format='%(asctime)s - %(nam
 
     logger.addHandler(sh)
 
-    logger.debug('test message')
-
     LOGGER = logger
     return logger
 
